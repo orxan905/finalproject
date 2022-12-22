@@ -1,0 +1,31 @@
+.CoinList h1{
+    font-weight: 300;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.CoinList {
+    width: 100%;
+}
+
+.coin img{
+    width: 200px;
+    height: 200px;
+}
+
+.coin h3{
+    color: #833AE0;
+}
+
+.coin {
+    width: 50%;
+}
+.coin *{
+    margin: 20px;
+}
+
+.Coin {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}

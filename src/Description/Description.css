@@ -1,0 +1,71 @@
+
+.description img{
+    width: 300px;
+    height: 300px;
+}
+.description {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.description .item {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.description .item .images {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.description aside{
+    position: relative;
+    width: 40%;
+    background-color: #C4C4C480;
+    padding: 50px;
+
+}
+
+.description p{
+    font-size: 14px;
+}
+
+.description a{
+    position: absolute;
+    bottom: 10px;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  tr, td {
+    text-align: left;
+    padding: 5px;
+  }
+
+  tr{
+    border-bottom: 1px solid grey;
+  }
+
+  td:last-of-type{
+    border-left: 1px solid grey;
+  }
+
+.description tr:nth-child(odd) {
+    background-color: #FFFFFFE5;
+  }
+
+  
+  
