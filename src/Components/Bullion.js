@@ -15,6 +15,6 @@ function Bullion(){
             <img src="CategoryImage/Bullion.png" alt='bullion'></img>
         </div>
     )
-}
+    }
 
-export default Bullion;
+    export default Bullion;
